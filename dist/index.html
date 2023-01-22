@@ -12,16 +12,16 @@
       type="image/x-icon"
     />
   </head>
-  <body class="debug-screens">
+  <body>
     <div
-      class="sticky top-0 border-b shadow-sm bg-white flex items-center justify-center z-20"
+      class="sticky top-0 z-20 flex items-center justify-center bg-white border-b shadow-sm"
     >
       <div
-        class="flex items-center justify-between gap-2 flex-row p-2 my-2 sm:p-4 w-full md:max-w-5xl lg:max-w-6xl h-full sm:mx-2 xs:mx-4 md:mx-4"
+        class="flex flex-row items-center justify-between w-full h-full gap-2 p-2 my-2 sm:p-4 md:max-w-5xl lg:max-w-6xl sm:mx-2 xs:mx-4 md:mx-4"
       >
-        <div class="cursor-pointer flex items-center justify-center p-2 w-full">
+        <div class="flex items-center justify-center w-full p-2 cursor-pointer">
           <img
-            class="w-20 sm:w-24 h-10 sm:h-12"
+            class="w-20 h-10 sm:w-24 sm:h-12"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png"
             alt="logo"
           />
@@ -29,7 +29,7 @@
 
         <div class="relative flex items-center justify-center w-full gap-2">
           <div
-            class="absolute top-0 bottom-0 left-2 h-full flex items-center justify-center"
+            class="absolute top-0 bottom-0 flex items-center justify-center h-full left-2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -48,18 +48,18 @@
           </div>
           <input
             type="text"
-            class="pl-8 sm:pl-10 p-4 w-full flex items-center justify-center h-full rounded focus:ring-black focus:border-black bg-gray-50 border-gray-500 text-sm"
+            class="flex items-center justify-center w-full h-full p-4 pl-8 text-sm border-gray-500 rounded sm:pl-10 focus:ring-black focus:border-black bg-gray-50"
             placeholder="Search..."
           />
         </div>
 
-        <div class="w-full flex items-center justify-center p-2 gap-4">
-          <div class="md:flex items-center justify-center hidden">
+        <div class="flex items-center justify-center w-full gap-4 p-2">
+          <div class="items-center justify-center hidden md:flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              class="w-6 h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-in-out"
+              class="w-6 h-6 transition-transform duration-200 ease-in-out cursor-pointer hover:scale-125"
             >
               <path
                 d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"
@@ -95,137 +95,137 @@
         </div>
       </div>
     </div>
-    <main>
-      <section>
-         <div class="flex items-center justify-center gap-2 p-8 border overflow-x-scroll  scrollbar-none rounded">
-          <div class="cursor-pointer group relative flex items-center justify-center gap-2 flex-col">
+    <main class="grid grid-cols-1 mx-auto lg:grid-cols-3 md:max-w-6xl">
+      <section class="lg:col-span-2">
+         <div class="flex items-center justify-start gap-2 px-4 py-8 overflow-x-scroll border rounded scrollbar-none">
+          <div class="relative flex flex-col items-center justify-center gap-2 cursor-pointer group">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 group-hover:scale-110 transition-transform duration-200 ease-in-out" src="https://media.licdn.com/dms/image/D5603AQGGelU_XfR4_g/profile-displayphoto-shrink_400_400/0/1672594057045?e=1680134400&v=beta&t=haOGLdqpl8uZLmc-XqxcptELERlbXojNZkS_c_AaaNs" alt="avatar">
-            <div class="flex items-center justify-center p-1 absolute top-4 left-4 text-white">
+            <div class="absolute flex items-center justify-center p-1 text-white top-4 left-4">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
               </svg>
               
             </div>
-            <p class="text-sm w-14 truncate text-center">yakshit.g2203</p>
+            <p class="text-sm text-center truncate w-14">yakshit.g2203</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=1" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">vishnusharma2203</p>
+            <p class="text-sm text-center truncate w-14">vishnusharma2203</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=2" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">yajat.k2349</p>
+            <p class="text-sm text-center truncate w-14">yajat.k2349</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=3" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">kaushiksharma23330</p>
+            <p class="text-sm text-center truncate w-14">kaushiksharma23330</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=4" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">khiharma23330</p>
+            <p class="text-sm text-center truncate w-14">khiharma23330</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=5" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">karan30</p>
+            <p class="text-sm text-center truncate w-14">karan30</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=6" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">akshksharma5472830</p>
+            <p class="text-sm text-center truncate w-14">akshksharma5472830</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=7" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">kaushikntaetny30</p>
+            <p class="text-sm text-center truncate w-14">kaushikntaetny30</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=8" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">kaushikhnqtn0</p>
+            <p class="text-sm text-center truncate w-14">kaushikhnqtn0</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=9" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">kasnsknbkma5650</p>
+            <p class="text-sm text-center truncate w-14">kasnsknbkma5650</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=10" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">kjatinrg30</p>
+            <p class="text-sm text-center truncate w-14">kjatinrg30</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=11" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">kaushafhana330</p>
+            <p class="text-sm text-center truncate w-14">kaushafhana330</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=12" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">kaus355330</p>
+            <p class="text-sm text-center truncate w-14">kaus355330</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=13" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">kasharma230</p>
+            <p class="text-sm text-center truncate w-14">kasharma230</p>
           </div>
-          <div class="cursor-pointer flex items-center justify-center gap-2 flex-col">
+          <div class="flex flex-col items-center justify-center gap-2 cursor-pointer">
             <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out" src="https://i.pravatar.cc/150?img=14" alt="avatar">
-            <p class="text-sm w-14 truncate text-center">anujsharma23560</p>
+            <p class="text-sm text-center truncate w-14">anujsharma23560</p>
           </div>
          </div>
 
-    <div class="border my-8 bg-white">
+        <div class="my-8 bg-white border">
           <div class="flex items-center justify-between p-4 xs:p-6">
-             <img class="h-12 mr-3 rounded-full border p-1" src="https://media.licdn.com/dms/image/D5603AQGGelU_XfR4_g/profile-displayphoto-shrink_400_400/0/1672594057045?e=1680134400&v=beta&t=haOGLdqpl8uZLmc-XqxcptELERlbXojNZkS_c_AaaNs" alt="user"/>
+             <img class="h-12 p-1 mr-2 border rounded-full" src="https://media.licdn.com/dms/image/D5603AQGGelU_XfR4_g/profile-displayphoto-shrink_400_400/0/1672594057045?e=1680134400&v=beta&t=haOGLdqpl8uZLmc-XqxcptELERlbXojNZkS_c_AaaNs" alt="user"/>
               <p class="flex-1 font-bold">yakshit.g2203</p>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
               </svg>
             </div>
         
          <div class="flex items-center justify-center w-full">
-          <img class="w-full object-cover" src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="nature"/>
+          <img class="object-cover w-full" src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="nature"/>
          </div>
          <div class="flex items-center justify-between px-4 pt-4 pb-1">
-          <div class="flex items-center justify-center gap-4 p-1">
+          <div class="flex items-center justify-center gap-2 p-1">
             <div class="flex items-center justify-center p-1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="btn" fill="red" viewBox="0 0 24 24" stroke="currentColor" stroke-width="0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
             </svg></div>
             <div class="flex items-center justify-center p-1">
             <svg xmlns="http://www.w3.org/2000/svg" class="btn" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
             </svg></div>
-            <div class="flex items-center justify-center p-1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn rotate-45 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <div class="flex items-center justify-center p-1 rotate-45">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 btn" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
             </svg></div>
           </div>
           <div class="flex items-center justify-center p-1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="btn" fill="black" viewBox="0 0 24 24" stroke="currentColor" stroke-width="0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
             </svg>
           </div>
          </div>
-         <div class="p-4 xs:p-6 truncate flex items-start justify-center gap-1 flex-col">
+         <div class="flex flex-col items-start justify-center gap-1 p-4 truncate xs:p-6">
         <div class="flex items-center justify-start">
-          <span class="font-bold mr-2 truncate">yakshit.g2203</span>
+          <span class="mr-2 font-bold truncate">yakshit.g2203</span>
           <p class="truncate">Nice Picture!</p>
           </div>
         </div>
-      <div class="p-4 xs:p-6 max-h-24 overflow-y-scroll scrollbar-none">
-         <div class="flex items-center gap-2 justify-between mb-2">
-          <img class="h-7 rounded-full object-cover" src="https://i.pravatar.cc/150?img=1" alt="avatar"/>
+      <div class="px-4 py-2 overflow-y-scroll xs:px-6 max-h-24 scrollbar-none">
+         <div class="flex items-center justify-between gap-2 mb-2">
+          <img class="object-cover rounded-full h-7" src="https://i.pravatar.cc/150?img=1" alt="avatar"/>
           <p class="font-semibold">kaushi91475</p>
           <p class="flex-1 truncate">Nice!</p>
           <p>2 hours ago</p>
          </div>
-        <div class="flex items-center gap-2 justify-between mb-2">
-          <img class="h-7 rounded-full object-cover" src="https://i.pravatar.cc/150?img=2" alt="avatar"/>
+        <div class="flex items-center justify-between gap-2 mb-2">
+          <img class="object-cover rounded-full h-7" src="https://i.pravatar.cc/150?img=2" alt="avatar"/>
           <p class="font-semibold">jatin3251</p>
           <p class="flex-1 truncate">Amazing!</p>
           <p>5 hours ago</p>
         </div>
-        <div class="flex items-center gap-2 justify-between mb-2">
-          <img class="h-7 rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="avatar"/>
+        <div class="flex items-center justify-between gap-2 mb-2">
+          <img class="object-cover rounded-full h-7" src="https://i.pravatar.cc/150?img=3" alt="avatar"/>
           <p class="font-semibold">karan2245</p>
           <p class="flex-1 truncate">great!</p>
           <p>12 hours ago</p>
         </div>
-        <div class="flex items-center gap-2 justify-between mb-2">
-          <img class="h-7 rounded-full object-cover" src="https://i.pravatar.cc/150?img=4" alt="avatar"/>
+        <div class="flex items-center justify-between gap-2 mb-2">
+          <img class="object-cover rounded-full h-7" src="https://i.pravatar.cc/150?img=4" alt="avatar"/>
           <p class="font-semibold">kanahiya08954</p>
           <p class="flex-1 truncate">good!</p>
           <p>1 day ago</p>
@@ -236,71 +236,71 @@
         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
-        <input class="border-none flex-1 focus:ring-0" type="text" placeholder="Enter your comment" />
+        <input class="flex-1 border-none focus:ring-0" type="text" placeholder="Enter your comment" />
         <button class="font-bold text-blue-500">Post</button>
       </form>
     </div>
-    <div class="border my-8 bg-white">
+    <div class="my-8 bg-white border">
           <div class="flex items-center justify-between p-4 xs:p-6">
-             <img class="h-12 mr-3 rounded-full border p-1" src="https://media.licdn.com/dms/image/D5603AQGGelU_XfR4_g/profile-displayphoto-shrink_400_400/0/1672594057045?e=1680134400&v=beta&t=haOGLdqpl8uZLmc-XqxcptELERlbXojNZkS_c_AaaNs" alt="user"/>
+             <img class="h-12 p-1 mr-2 border rounded-full" src="https://media.licdn.com/dms/image/D5603AQGGelU_XfR4_g/profile-displayphoto-shrink_400_400/0/1672594057045?e=1680134400&v=beta&t=haOGLdqpl8uZLmc-XqxcptELERlbXojNZkS_c_AaaNs" alt="user"/>
               <p class="flex-1 font-bold">yakshit.g2203</p>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
               </svg>
             </div>
         
          <div class="flex items-center justify-center w-full">
-          <img class="w-full object-cover" src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80" alt="nature"/>
+          <img class="object-cover w-full" src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80" alt="nature"/>
          </div>
          <div class="flex items-center justify-between px-4 pt-4 pb-1">
-          <div class="flex items-center justify-center gap-4 p-1">
+          <div class="flex items-center justify-center gap-2 p-1">
             <div class="flex items-center justify-center p-1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="btn" fill="red" viewBox="0 0 24 24" stroke="currentColor" stroke-width="0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
             </svg></div>
             <div class="flex items-center justify-center p-1">
             <svg xmlns="http://www.w3.org/2000/svg" class="btn" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
             </svg></div>
-            <div class="flex items-center justify-center p-1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn rotate-45 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <div class="flex items-center justify-center p-1 rotate-45">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 btn" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
             </svg></div>
           </div>
           <div class="flex items-center justify-center p-1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="btn" fill="black" viewBox="0 0 24 24" stroke="currentColor" stroke-width="0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
             </svg>
           </div>
          </div>
-        <div class="p-4 xs:p-6 truncate flex items-start justify-center gap-1 flex-col">
+        <div class="flex flex-col items-start justify-center gap-1 px-4 py-2 truncate xs:px-6">
           <p class="truncate">2 Likes</p>
         <div class="flex items-center justify-start">
-          <span class="font-bold mr-2 truncate">yakshit.g2203</span>
+          <span class="mr-2 font-bold truncate">yakshit.g2203</span>
           <p class="truncate">Nice Picture!</p>
           </div>
         </div>
-      <div class="p-4 xs:p-6 max-h-24 overflow-y-scroll scrollbar-none">
-         <div class="flex items-center gap-2 justify-between mb-2">
-          <img class="h-7 rounded-full object-cover" src="https://i.pravatar.cc/150?img=1" alt="avatar"/>
+      <div class="p-4 overflow-y-scroll xs:p-6 max-h-24 scrollbar-none">
+         <div class="flex items-center justify-between gap-2 mb-2">
+          <img class="object-cover rounded-full h-7" src="https://i.pravatar.cc/150?img=1" alt="avatar"/>
           <p class="font-semibold">kaushi91475</p>
           <p class="flex-1 truncate">Nice!</p>
           <p>2 hours ago</p>
          </div>
-        <div class="flex items-center gap-2 justify-between mb-2">
-          <img class="h-7 rounded-full object-cover" src="https://i.pravatar.cc/150?img=2" alt="avatar"/>
+        <div class="flex items-center justify-between gap-2 mb-2">
+          <img class="object-cover rounded-full h-7" src="https://i.pravatar.cc/150?img=2" alt="avatar"/>
           <p class="font-semibold">jatin3251</p>
           <p class="flex-1 truncate">Amazing!</p>
           <p>5 hours ago</p>
         </div>
-        <div class="flex items-center gap-2 justify-between mb-2">
-          <img class="h-7 rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="avatar"/>
+        <div class="flex items-center justify-between gap-2 mb-2">
+          <img class="object-cover rounded-full h-7" src="https://i.pravatar.cc/150?img=3" alt="avatar"/>
           <p class="font-semibold">karan2245</p>
           <p class="flex-1 truncate">great!</p>
           <p>12 hours ago</p>
         </div>
-        <div class="flex items-center gap-2 justify-between mb-2">
-          <img class="h-7 rounded-full object-cover" src="https://i.pravatar.cc/150?img=4" alt="avatar"/>
+        <div class="flex items-center justify-between gap-2 mb-2">
+          <img class="object-cover rounded-full h-7" src="https://i.pravatar.cc/150?img=4" alt="avatar"/>
           <p class="font-semibold">kanahiya08954</p>
           <p class="flex-1 truncate">good!</p>
           <p>1 day ago</p>
@@ -311,14 +311,62 @@
         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
-        <input class="border-none flex-1 focus:ring-0" type="text" placeholder="Enter your comment" />
+        <input class="flex-1 border-none focus:ring-0" type="text" placeholder="Enter your comment" />
         <button class="font-bold text-blue-500">Post</button>
       </form>
     </div>
   
       </section>
-      <section>
-
+      <section class="hidden lg:inline-grid lg:col-span-1 ">
+          <div class="fixed w-full">
+            <div class="flex items-center justify-between ml-10 mt-14">
+              <img
+                src="https://media.licdn.com/dms/image/D5603AQGGelU_XfR4_g/profile-displayphoto-shrink_400_400/0/1672594057045?e=1680134400&v=beta&t=haOGLdqpl8uZLmc-XqxcptELERlbXojNZkS_c_AaaNs"
+                alt="user-image"
+                class="h-16 rounded-full border p-[2px]"
+              />
+              <div class="flex-1 ml-4">
+                <h2 class="font-bold">yakshit.g2203</h2>
+                <h3 class="text-sm text-gray-400">Welcome to instagram</h3>
+              </div>
+              <button class="text-sm font-semibold text-blue-400">
+                Sign out
+              </button>
+            </div>
+  
+            <!-- Suggestions -->
+  
+            <div class="mt-4 ml-10">
+              <div class="flex justify-between mb-5 text-sm">
+                <h3 class="font-bold text-gray-400">Suggestions for you</h3>
+                <button class="font-semibold text-gray-600">See all</button>
+              </div>
+              <div class="flex items-center justify-between mt-3">
+                <img class="h-10 border rounded-full p-[2px]" src="https://i.pravatar.cc/150?img=17" alt="user-image" />
+                <div class="flex-1 ml-4">
+                  <h2 class="text-sm font-semibold">john26375</h2>
+                  <h3 class="text-sm text-gray-400">Manager</h3>
+                </div>
+                <button class="text-sm font-semibold text-blue-400">Follow</button>
+              </div>
+              <div class="flex items-center justify-between mt-3">
+                <img class="h-10 border rounded-full p-[2px]" src="https://i.pravatar.cc/150?img=18" alt="user-image" />
+                <div class="flex-1 ml-4">
+                  <h2 class="text-sm font-semibold">davidlkdnc75</h2>
+                  <h3 class="text-sm text-gray-400">Manager</h3>
+                </div>
+                <button class="text-sm font-semibold text-blue-400">Follow</button>
+              </div>
+              <div class="flex items-center justify-between mt-3">
+                <img class="h-10 border rounded-full p-[2px]" src="https://i.pravatar.cc/150?img=19" alt="user-image" />
+                <div class="flex-1 ml-4">
+                  <h2 class="text-sm font-semibold">sarasjhgcvsvc</h2>
+                  <h3 class="text-sm text-gray-400">Engineer</h3>
+                </div>
+                <button class="text-sm font-semibold text-blue-400">Follow</button>
+              </div>
+            </div>
+          </div>
       </section>
     </main>
   </body>
