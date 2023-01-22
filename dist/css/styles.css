@@ -702,60 +702,18 @@ select {
 .top-0 {
   top: 0px;
 }
-.top-2 {
-  top: 0.5rem;
+.bottom-0 {
+  bottom: 0px;
 }
 .left-2 {
   left: 0.5rem;
 }
-.bottom-0 {
-  bottom: 0px;
-}
 .z-20 {
   z-index: 20;
-}
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
 }
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.ml-1 {
-  margin-left: 0.25rem;
-}
-.mt-1 {
-  margin-top: 0.25rem;
-}
-.mt-\[\] {
-  margin-top: ;
-}
-.mt-\[\.5\] {
-  margin-top: .5;
-}
-.mt-\[\.5px\] {
-  margin-top: .5px;
-}
-.mt-2 {
-  margin-top: 0.5rem;
-}
-.mt-\[\.2px\] {
-  margin-top: .2px;
-}
-.mt-\[\.3px\] {
-  margin-top: .3px;
-}
-.mt-\[\.4px\] {
-  margin-top: .4px;
 }
 .mt-\[1px\] {
   margin-top: 1px;
@@ -769,29 +727,26 @@ select {
 .h-full {
   height: 100%;
 }
-.h-12 {
-  height: 3rem;
+.h-10 {
+  height: 2.5rem;
 }
 .h-5 {
   height: 1.25rem;
 }
-.h-24 {
-  height: 6rem;
-}
 .h-6 {
   height: 1.5rem;
-}
-.h-10 {
-  height: 2.5rem;
 }
 .h-8 {
   height: 2rem;
 }
+.h-14 {
+  height: 3.5rem;
+}
 .w-full {
   width: 100%;
 }
-.w-24 {
-  width: 6rem;
+.w-20 {
+  width: 5rem;
 }
 .w-5 {
   width: 1.25rem;
@@ -799,8 +754,8 @@ select {
 .w-6 {
   width: 1.5rem;
 }
-.w-20 {
-  width: 5rem;
+.w-14 {
+  width: 3.5rem;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -823,8 +778,10 @@ select {
 .gap-4 {
   gap: 1rem;
 }
-.gap-1 {
-  gap: 0.25rem;
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .rounded {
   border-radius: 0.25rem;
@@ -832,12 +789,19 @@ select {
 .rounded-full {
   border-radius: 9999px;
 }
+.border-2 {
+  border-width: 2px;
+}
 .border-b {
   border-bottom-width: 1px;
 }
 .border-gray-500 {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 .bg-white {
   --tw-bg-opacity: 1;
@@ -847,26 +811,20 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
-.p-4 {
-  padding: 1rem;
-}
 .p-2 {
   padding: 0.5rem;
 }
-.p-1 {
-  padding: 0.25rem;
+.p-4 {
+  padding: 1rem;
 }
-.pl-10 {
-  padding-left: 2.5rem;
-}
-.pl-4 {
-  padding-left: 1rem;
-}
-.pl-6 {
-  padding-left: 1.5rem;
+.p-\[1\.5px\] {
+  padding: 1.5px;
 }
 .pl-8 {
   padding-left: 2rem;
+}
+.text-center {
+  text-align: center;
 }
 .text-sm {
   font-size: 0.875rem;
@@ -880,13 +838,6 @@ select {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
 .transition-transform {
   transition-property: transform;
@@ -920,6 +871,11 @@ html{
   --tw-scale-y: 1.25;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.hover\:scale-110:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .focus\:border-black:focus {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -948,10 +904,6 @@ html{
 
   .sm\:w-24 {
     width: 6rem;
-  }
-
-  .sm\:gap-2 {
-    gap: 0.5rem;
   }
 
   .sm\:p-4 {
