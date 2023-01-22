@@ -723,6 +723,9 @@ select {
 .ml-4 {
   margin-left: 1rem;
 }
+.ml-6 {
+  margin-left: 1.5rem;
+}
 .flex {
   display: flex;
 }
@@ -779,6 +782,12 @@ select {
 }
 .w-7 {
   width: 1.75rem;
+}
+.w-\[\] {
+  width: ;
+}
+.w-\[25rem\] {
+  width: 25rem;
 }
 .flex-1 {
   flex: 1 1 0%;
